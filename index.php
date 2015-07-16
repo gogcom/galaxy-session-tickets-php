@@ -1,10 +1,13 @@
 <?php
 
-require_once('SessionTicketDecoder.php');
+require_once('vendor/autoload.php');
 
-$plaintext = SessionTicketDecoder::decode(ExampleData::$encryptedSessionTicket, ExampleData::$clientPrivateKey);
+$plaintext = \GOG\SessionTickets\SessionTicketDecoder::decode(
+    \GOG\SessionTickets\ExampleData::$encryptedSessionTicket,
+    \GOG\SessionTickets\ExampleData::$clientPrivateKey
+);
 
-if ($plaintext === ExampleData::$plainTextSessionTicket) {
+if ($plaintext === \GOG\SessionTickets\ExampleData::$plainTextSessionTicket) {
     echo $plaintext . "\n";
 } else {
     throw new \Exception('Encrypted Session Ticket decryption failed');

@@ -1,5 +1,7 @@
 <?php
 
+namespace GOG\SessionTickets;
+
 class UrlSafeBase64Encoder
 {
     public static function encode($data)

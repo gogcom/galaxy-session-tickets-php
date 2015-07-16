@@ -1,5 +1,7 @@
 <?php
 
+namespace GOG\SessionTickets;
+
 class ExampleData
 {
     public static $encryptedSessionTicket = 'csEYJ2MWR53QssNNqFgO87sRNktqgGsIfcq7Od4298Tr3ssV-qeBaxYsY15xVlc1sEj092Fp2IJdtYz8zjHF1FvdRXgOYI84bTikl5saOcmrqZZ1QkDNoBqaoYbMznEz';
