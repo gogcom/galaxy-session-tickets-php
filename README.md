@@ -13,5 +13,5 @@ Session Tickets are encrypted using [AES (Rijandel)](https://en.wikipedia.org/wi
 
 ## Refference PHP Implementaion
 
-This is an example [PHP implementaion](https://github.com/gogcom/galaxy-session-tickets-php/blob/master/read_galaxy_encrypted_session_ticket.php)
+This is an example [PHP implementaion](https://github.com/gogcom/galaxy-session-tickets-php/blob/master/index.php)
 of Galaxy Encrypted Session Tickets decryption algorithm.
