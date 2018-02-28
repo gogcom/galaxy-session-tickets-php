@@ -1,0 +1,10 @@
+application:
+  image: busybox
+  volumes:
+      - ./:/data/application
+
+php-cli:
+    build: .
+    working_dir: /data/application
+    volumes_from:
+        - application
