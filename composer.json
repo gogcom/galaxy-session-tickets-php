@@ -1,5 +1,5 @@
 {
-  "name": "gog/galaxy/encrypted-session-tickets",
+  "name": "gogcom/encrypted-session-tickets",
   "description": "GOG.com Galaxy Encrypted Session Tickets decoder",
   "license": "MIT",
   "require": {
