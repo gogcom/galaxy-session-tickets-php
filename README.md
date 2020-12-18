@@ -1,4 +1,4 @@
-# GOG Galaxy Encrypted Sesion Tickets
+# GOG Galaxy Encrypted Session Tickets
 
 GOG Galaxy SDK provieds access to Encrypted Session Tickets, which can be accessed in the games runtime 
 and allow seamless user authenticatication in any third-party backend.
