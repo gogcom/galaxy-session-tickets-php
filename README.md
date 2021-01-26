@@ -6,7 +6,7 @@ Encrypted App Tickets are created and encrypted in the GOG GALAXY backend using 
 
 ## Encryption
 
-App Tickets are encrypted using [AES (Rijandel)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) with a 128-bit block size, 256-bit encryption key in the CBC mode.
+App Tickets are encrypted using [AES (Rijndael)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) with a 128-bit block size, 256-bit encryption key in the CBC mode.
 
 ## Reference PHP Implementation
 
